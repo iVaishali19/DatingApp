@@ -1,0 +1,15 @@
+
+
+
+Facing issue while seeding data from json file and pushing datingApp db tables 
+issue sloved by refering this link https://thedatafarm.com/data-access/seeding-ef-with-json-data/
+
+Typescript verion used in angular is  "typescript": "~4.5.2" which is following strict type
+safety so changed the version of type script
+
+Gaurd created deactivate to  prevent and pop-up moving to other page withut making any changes
+
+@HostListener if you want to move from application to google or orther site without saving changes we can use it 
+
+
+routerLink="/{{member?.userName}}" [queryParams]="{tab:'3'}"
